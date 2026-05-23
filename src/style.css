@@ -1,0 +1,17 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: #f7e6c4;
+  font-family: "Hiragino Sans", "Yu Gothic", "Noto Sans JP", "Meiryo",
+    sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}

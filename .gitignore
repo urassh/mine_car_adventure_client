@@ -2,3 +2,8 @@ node_modules
 dist
 .DS_Store
 *.log
+
+# env (infra から terraform で生成される .env.production を含む)
+.env
+.env.*
+!.env.sample
